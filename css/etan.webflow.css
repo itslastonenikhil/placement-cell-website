@@ -3053,6 +3053,22 @@ figcaption {
   grid-template-rows: auto auto auto auto;
 }
 
+.c-grid-vacancy-four-2{
+  grid-column-gap: 0px;
+  -ms-grid-columns: 1fr 1fr 0.5fr 0.5fr;
+  grid-template-columns: 1fr 1fr 0.5fr 0.5fr;
+  -ms-grid-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+
+.c-grid-vacancy-two{
+  grid-column-gap: 0px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
 .c-grid-vacancy__head {
   padding-right: 16px;
   padding-bottom: 16px;
