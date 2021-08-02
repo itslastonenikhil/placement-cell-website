@@ -1,0 +1,45 @@
+.coordinator-container {
+    margin-top: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.coordinator-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.coordinator-card {
+    text-align: center;
+}
+
+.coordinator-image {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+} 
+
+.coordinator-info {
+    margin-top: 20px;
+}
+
+.address-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.map {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+}
