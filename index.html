@@ -9,9 +9,11 @@
     <meta content="Homepage" property="og:title">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
+    
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/webflow.css" rel="stylesheet" type="text/css">
     <link href="css/etan.webflow.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script
       type="text/javascript">WebFont.load({ google: { families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Inconsolata:400,700", "Merriweather:300,300italic,400,400italic,700,700italic,900,900italic", "Gothic A1:100,200,300,regular,500,600,700,800,900"] } });</script>
@@ -23,118 +25,144 @@
   </head>
 
   <body style="overflow-x: hidden;">
-    <div class="section-header position-absolute">
+    <div class="section-header position-absolute position-fixed">
       <div class="container space-between align-middle">
         <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
           <div class="navbar-container align-middle w-container">
             <div class="col lg-4 order-first no-padding-left no-margin-bottom flex-horizontal lg-2 md-4 xs-8">
-              <div class="menu-and-logo-container order-first"><a data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf10"
-                  href="#" class="offcanvas-button margin-right w-inline-block"><img
-                    src="images/burger-menu-icon-white.svg" alt=""></a>
+
+              <div class="menu-and-logo-container order-first">
                 <a href="#" class="brand w-nav-brand">
-                  <h3 class="logotype on-dark">e—<br>tan</h3>
+                  <span class="nav-logo"><img src="/images/iiitg.png" alt=""></span>
                 </a>
               </div>
             </div>
             <div class="col lg-4 no-margin-bottom flexh-justify-center position-absolute-md lg-8">
-              <nav role="navigation" class="nav-menu w-nav-menu"><a href="about.html"
-                  class="nav-link on-dark w-nav-link">About</a>
-                <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a"
-                  class="nav-dropdown w-dropdown">
-                  <div class="nav-link on-dark w-dropdown-toggle">
+              <nav role="navigation" class="nav-menu w-nav-menu">
+                <!-- 1 -->
+                <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                  <div class="nav-link w-dropdown-toggle">
                     <div class="w-icon-dropdown-toggle"></div>
-                    <div>Our work</div>
+                    <div>Why Recruit?</div>
                   </div>
-                  <nav class="dropdown-list w-dropdown-list"><a href="our-work.html"
-                      class="dropdown-link w-dropdown-link">Fullwidth gallery</a><a href="our-work-2.html"
-                      class="dropdown-link w-dropdown-link">Standard gallery</a></nav>
-                </div><a href="services.html" class="nav-link on-dark w-nav-link">Services</a><a href="news.html"
-                  class="nav-link on-dark w-nav-link">News</a><a href="contact-us.html"
-                  class="nav-link on-dark w-nav-link">Contact </a>
+                  <nav class="dropdown-list w-dropdown-list">
+                    <a href="our-work.html" class="dropdown-link w-dropdown-link">Home</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">About IIITG</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Academics</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Research</a>
+
+                  </nav>
+                </div>
+                <!-- 2 -->
+                <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                  <div class="nav-link w-dropdown-toggle">
+                    <div class="w-icon-dropdown-toggle"></div>
+                    <div>Placement Status</div>
+                  </div>
+                  <nav class="dropdown-list w-dropdown-list">
+                    <a href="our-work.html" class="dropdown-link w-dropdown-link">Past Recruiters</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Past Stats</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Past Figures</a>
+                  </nav>
+                </div>
+                <!-- 3 -->
+                <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                  <div class="nav-link w-dropdown-toggle">
+                    <div class="w-icon-dropdown-toggle"></div>
+                    <div>Companies</div>
+                  </div>
+                  <nav class="dropdown-list w-dropdown-list">
+                    <a href="our-work.html" class="dropdown-link w-dropdown-link">Placement Procedure</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Past Recruiters</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Brochure</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Company Registration</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Facilities</a>
+                  </nav>
+                </div>
+                <!-- 4 -->
+                <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                  <div class="nav-link w-dropdown-toggle">
+                    <div class="w-icon-dropdown-toggle"></div>
+                    <div>Life at IIITG</div>
+                  </div>
+                  <nav class="dropdown-list w-dropdown-list">
+                    <a href="our-work.html" class="dropdown-link w-dropdown-link">Clubs</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Festival</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Sports</a>
+                  </nav>
+                </div>
+                <!-- 5 --> 
+                <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                  <div class="nav-link w-dropdown-toggle">
+                    <div class="w-icon-dropdown-toggle"></div>
+                    <div>FAQ</div>
+                  </div>
+                  <nav class="dropdown-list w-dropdown-list">
+                    <a href="our-work.html" class="dropdown-link w-dropdown-link">FAQs</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Accomodation</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Transportation</a>
+                  </nav>
+                </div>
+                <!-- 6 -->
+                <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                  <div class="nav-link w-dropdown-toggle">
+                    <div class="w-icon-dropdown-toggle"></div>
+                    <div>Contact Us</div>
+                  </div>
+                  <nav class="dropdown-list w-dropdown-list">
+                    <a href="our-work.html" class="dropdown-link w-dropdown-link">Faculty Incharge</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Student Co-ordinators</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Placement Office</a>
+                    <a href="our-work-2.html" class="dropdown-link w-dropdown-link">Reaching IIITG</a>
+                  </nav>
+                </div>
               </nav>
             </div>
             <div class="menu-button w-nav-button"><img src="images/burger-menu-icon-white.svg" alt=""
                 class="burger-menu-icon"></div>
             <div class="col lg-4 no-margin-bottom flexh-justify-end no-padding-right grow hidden-xs lg-2">
-              <div class="extra-menu"><a href="hiring.html"
-                  class="extra-menu-link margin-left nav-link on-dark">We&#x27;re hiring</a></div>
+              <div class="extra-menu">
+                <a href="hiring.html" class="extra-menu-link margin-left nav-link nav-tab">Brochure</a>
+                <a href="hiring.html" class="extra-menu-link margin-left nav-link  nav-tab">Registration</a>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="section is-header _100vh position-relative flexv-justify-end">
+    <div class="section is-header _100vh position-relative flexv-justify-end" style="background-image: url(/images/campus.jpg) ; background-size: cover;">
+      <div class="header-logo">
+        <img src="/images/header.svg" alt="">
+        
+      </div>
+      <div class="header-title">
+        <h1 class="on-dark">Training & Placement Cell</h1>
+      </div>
       <!-- <div data-poster-url="videos/wavy-poster-00001.jpg" data-video-urls="videos/wavy-transcode.mp4,videos/wavy-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="bg-video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/wavy-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true"><source src="videos/wavy-transcode.mp4" data-wf-ignore="true"><source src="videos/wavy-transcode.webm" data-wf-ignore="true"></video></div> -->
-      <div data-delay="4000" data-animation="outin" data-autoplay="1" data-duration="500" data-infinite="1"
+      <!-- <div data-delay="4000" data-animation="outin" data-autoplay="1" data-duration="500" data-infinite="1"
         data-w-id="ba5d81d6-f355-4907-f1e1-029f7110022c" style="opacity:0"
         class="c-hero1__slider relative-zindex10 on-dark w-slider">
         <div class="w-slider-mask">
           <div data-w-id="3f5eea81-9fb1-a721-0d1d-72982ce34d08" class="w-slide">
             <div class="container container-nested flex-horizontal">
-              <div class="col lg-7 md-12">
-                <h1 class="heading-beta on-dark">Everyone has an opinion, we have science</h1>
+              <div class="col lg-12 md-12">
+                <img src="/images/header.svg" alt="">
+                <h1 class="heading-beta on-dark">Training & Placement Cell</h1>
+                
               </div>
               <div class="col lg-5 md-12 flexv-justify-end">
                 <p style="-webkit-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                  class="text-large weight-is-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                  varius enim in eros elementum tristique.</p>
+                  class="text-large weight-is-thin">
+                  
+                </p>
               </div>
             </div>
             <div class="container container-nested">
               <div class="col lg-12"><a href="contact-us.html" class="cta-link on-dark"><span
                     class="margin-right">let&#x27;s talk</span><span class="fa c-cta1_arrow-hovered"></span> <span
-                    class="fa c-cta1__arrow-normal"></span></a></div>
-            </div>
-          </div>
-          <div data-w-id="ba5d81d6-f355-4907-f1e1-029f7110022e" class="w-slide">
-            <div class="container container-nested flex-horizontal">
-              <div class="col lg-7 md-12">
-                <h1 class="heading-beta on-dark">We clarify the future value of your company</h1>
-              </div>
-              <div class="col lg-5 md-12 flexv-justify-end">
-                <p style="-webkit-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                  class="text-large weight-is-thin">Nulla vitae elit libero pharetra augue cras justo odio dapibus ac
-                  facilisis in, egestas eget quam</p>
-              </div>
-            </div>
-            <div class="container container-nested">
-              <div class="col lg-12"><a href="contact-us.html" class="cta-link on-dark"><span
-                    class="margin-right">let&#x27;s talk</span><span class="fa c-cta1_arrow-hovered"></span> <span
-                    class="fa c-cta1__arrow-normal"></span></a></div>
-            </div>
-          </div>
-          <div data-w-id="5b7fd169-4ed8-bbfd-225b-95f5416a5421" class="w-slide">
-            <div class="container container-nested flex-horizontal">
-              <div class="col lg-7 md-12">
-                <h1 class="heading-beta on-dark">Etan doubles down on business growth strategy </h1>
-              </div>
-              <div class="col lg-5 md-12 flexv-justify-end">
-                <p style="-webkit-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                  class="text-large weight-is-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse
-                  varius enim in eros elementum tristique.</p>
-              </div>
-            </div>
-            <div class="container container-nested">
-              <div class="col lg-12"><a href="contact-us.html" class="cta-link on-dark"><span
-                    class="margin-right">let&#x27;s talk</span><span class="fa c-cta1_arrow-hovered"></span> <span
-                    class="fa c-cta1__arrow-normal"></span></a></div>
-            </div>
-          </div>
-          <div data-w-id="88d8b573-e05f-3739-e73a-e4f52b2e8fc7" class="w-slide">
-            <div class="container container-nested flex-horizontal">
-              <div class="col lg-7 md-12">
-                <h1 class="heading-beta on-dark">We’ve been a force for change for 20 years</h1>
-              </div>
-              <div class="col lg-5 md-12 flexv-justify-end">
-                <p style="-webkit-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 27PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                  class="text-large weight-is-thin">Suspendisse varius enim in eros elementum tristique nulla vitae elit
-                  libero, a pharetra augue</p>
-              </div>
-            </div>
-            <div class="container container-nested">
-              <div class="col lg-12"><a href="contact-us.html" class="cta-link on-dark"><span
-                    class="margin-right">let&#x27;s talk</span><span class="fa c-cta1_arrow-hovered"></span> <span
-                    class="fa c-cta1__arrow-normal"></span></a></div>
+                    class="fa c-cta1__arrow-normal"></span></a>
+                  </div>
             </div>
           </div>
         </div>
@@ -144,43 +172,75 @@
         <div class="c-hero1__right-arrow w-slider-arrow-right">
           <div class="c-hero1__right-arrow-icon w-icon-slider-right"></div>
         </div>
-        <div class="slide-nav w-slider-nav w-round"></div>
-      </div>
+        
+      </div> -->
       <div class="gradient-overlay"></div>
     </div>
 
     <!-- message 1 -->
 
     <div class="section">
+      <div class="col lg-4 block-centered text-align-center">
+        <h2>Message</h2>
+      </div>
       <div class="container">
-        <div class="col lg-4 md-12">
-          <a href="#" class="c-video2 w-inline-block w-lightbox"><img
-              src="http://iiitg.ac.in/placements/images/rsz_chairman.jpg"
-              sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, 54vw" alt="">
-          </a>
+       
+        <div class="col lg-3 md-6 " style="margin: auto; margin-bottom: 20px;">
+          <div class="image-w-stripe-container text-align-center" >
+            <div class="stripes"></div>
+            <img src="http://iiitg.ac.in/placements/images/rsz_chairman.jpg"  alt="">
+          </div>
         </div>
-        <div class="col lg-1 no-margin-bottom"></div>
+        <!-- <div class="col lg-1 no-margin-bottom"></div> -->
         <div class="col lg-7 md-12">
           <div class="pre-title-container">
             <div class="pre-title is-left-aligned"></div>
             <div class="pre-title-decoration"></div>
           </div>
           <h3>From The Chairman's Desk</h3>
-          <div class="margin-bottom">My greetings to all of you on the occasion of the commencement of the fourth
-            Placement Session (2020-2021) of IIIT Guwahati. Placement Session is a special time in the calendar of any
-            technical Institute. I hope the ensuing Placement Session helps IIIT Guwahati to reach out to their
-            well-wishers successfully.
-            Though very young, IIIT Guwahati is gradually becoming a contender in research and higher education at the
-            national level. In IIIT Guwahati, the undergraduates receive sound technical grounding with other supporting
-            knowledge, including soft skills. IIIT Guwahati places emphasis on research and is a reflection of the well
-            qualified faculty members that groom the students. This emphasis certainly has a positive impact on the
-            quality of teaching. Here, the students are further exposed to other areas through their courses in basic
-            sciences and humanities. The talent IIIT Guwahati nurtures is unique, and I’m sure companies that work with
-            cutting edge technologies will seek these well deserving students.
-            I would like to take this opportunity to invite all corporates, working at the forefront of Information and
-            Communication Technology, to visit IIIT Guwahati for their recruitment drives.</div><a href="#"
-            class="cta-link"><span class="margin-right">Read More</span> <span class="fa c-cta1_arrow-hovered"></span>
+          <div class="margin-bottom" style="font-size: 20px;">My greetings to all of you on the occasion of the commencement of the fourth Placement Session (2020-2021) of IIIT Guwahati. Placement Session is a special time in the calendar of any technical Institute. I hope the ensuing Placement Session helps IIIT Guwahati to...</div>
+            
+
+            <!-- Trigger/Open The Modal -->
+            
+            <a href="#" class="cta-link" id="myBtn">
+              <span class="margin-right">Read More</span> 
+              <span class="fa c-cta1_arrow-hovered"><i class="fa   
+                fa-dot-circle-o "></i></span>
             <span class="fa c-cta1__arrow-normal"></span></a>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h3>Chairman's Message</h3>
+                </div>
+                <div class="modal-body">
+                  <p>My greetings to all of you on the occasion of the commencement of the fourth Placement Session (2020-2021) of IIIT Guwahati. 
+                    Placement Session is a special time in the calendar of any technical Institute. 
+                    I hope the ensuing Placement Session helps IIIT Guwahati to reach out to their well-wishers successfully.</p>
+                    <p>Though very young, IIIT Guwahati is gradually becoming a contender in research and higher education at the national level. 
+                    In IIIT Guwahati, the undergraduates receive sound technical grounding with other supporting knowledge, including soft skills. 
+                    IIIT Guwahati places emphasis on research and is a reflection of the well qualified faculty members that groom the students. 
+                    This emphasis certainly has a positive impact on the quality of teaching. Here, the students are further exposed to other areas through their courses in basic sciences and humanities. 
+                    The talent IIIT Guwahati nurtures is unique, and I’m sure companies that work with cutting edge technologies will seek these well deserving students.</p>
+                    <p>I would like to take this opportunity to invite all corporates, working at the forefront of Information and Communication Technology, to visit IIIT Guwahati for their recruitment drives.</p>
+                </div>
+                <div class="modal-footer">
+                  S. Ramadorai<br>
+                  Chairman<br>
+                  Board of Governors<br>
+                </div>
+              
+              </div>
+
+            </div>
+
+
+            
         </div>
       </div>
     </div>
@@ -198,31 +258,66 @@
             <div class="pre-title-decoration"></div>
           </div>
           <h3>From The Director's Desk</h3>
-          <div class="margin-bottom">It is my pleasure to invite all organizations to visit IIIT Guwahati and
+          <div class="margin-bottom" style="font-size: 20px;">
+            It is my pleasure to invite all organizations to visit IIIT Guwahati and
             participate in our fourth campus placement season. IIIT Guwahati is one of the twenty IIITs set up by the
             Govt. of India in partnership with State Govt and corporate partners. IIITG has as its partners, the Govts
             of India and Assam, TCS, Srei Infrastructure Finance, Oil India, and Amtron. In the five years of our
-            existence, we have been able to create a teaching and research environment as good as the best in the
-            country. Our syllabi takes the best from the IIIT and IIT systems and from world-wide trends. We have 46
-            faculty members, 40 of whom have PhDs from IITs, other leading Institutions of the country, and from
-            Universities abroad. We started a PhD programme in the second year, showing our commitment to a sound
-            research system. Besides building a world class institution, our mission is also to give a boost to the
-            development of the ICT industry in Guwahati. The upcoming IT Park next to our campus near the airport will
-            be one of the vehicles for this development. Our Institute, along with the other IIITs is recognized as an
-            Institute of National Importance through the August 2017 IIIT-PPP Act of Parliament. We have also recently
-            shifted to our permenant campus at Bongora, Assam which is located just 4 KMs away from Guwahati Airport.
+            existence, we have been able...
+          </div>
+            
+            <a href="#" class="cta-link" id="myBtn2">
+              <span class="margin-right">Read More</span> 
+              <span class="fa c-cta1_arrow-hovered"><i class="fa fa-dot-circle-o "></i></span>
+              <span class="fa c-cta1__arrow-normal"></span>
+            </a>
+            <div id="myModal2" class="modal">
 
-            I am confident that our students will live up to your expectations and they will become assets in your
-            organization in the years to come. I once again invite you to join our on-campus placement programme.</div>
-          <a href="#" class="cta-link"><span class="margin-right">Read More</span> <span
-              class="fa c-cta1_arrow-hovered"></span> <span class="fa c-cta1__arrow-normal"></span></a>
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close" id="close2">&times;</span>
+                  <h3>Director's Message</h3>
+                </div>
+                <div class="modal-body">
+                  <p>It is my pleasure to invite all organizations to visit IIIT Guwahati and
+                  participate in our fourth campus placement season. IIIT Guwahati is one of the twenty IIITs set up by the
+                  Govt. of India in partnership with State Govt and corporate partners. IIITG has as its partners, the Govts
+                  of India and Assam, TCS, Srei Infrastructure Finance, Oil India, and Amtron. In the five years of our
+                  existence, we have been able to create a teaching and research environment as good as the best in the
+                  country. Our syllabi takes the best from the IIIT and IIT systems and from world-wide trends. We have 46
+                  faculty members, 40 of whom have PhDs from IITs, other leading Institutions of the country, and from
+                  Universities abroad. We started a PhD programme in the second year, showing our commitment to a sound
+                  research system.</p>
+                  <p>Besides building a world class institution, our mission is also to give a boost to the
+                  development of the ICT industry in Guwahati. The upcoming IT Park next to our campus near the airport will
+                  be one of the vehicles for this development. Our Institute, along with the other IIITs is recognized as an
+                  Institute of National Importance through the August 2017 IIIT-PPP Act of Parliament. We have also recently
+                  shifted to our permenant campus at Bongora, Assam which is located just 4 KMs away from Guwahati Airport.
+                  </p> 
+                  <p>I am confident that our students will live up to your expectations and they will become assets in your
+                  organization in the years to come. I once again invite you to join our on-campus placement programme.
+                </p>
+                  
+                </div>
+                <div class="modal-footer">
+                  Prof. Gautam Barua<br>
+                  Director<br>
+                  IIIT Guwahati<br>
+                </div>
+              
+              </div>
 
-
+            </div>
         </div>
-        <div class="col lg-1 no-margin-bottom"></div>
-        <div class="col lg-4 md-12">
-          <a href="#" class="c-video2 w-inline-block w-lightbox"><img src="http://iiitg.ac.in/placements/images/gb.jpg"
-              sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, 54vw" alt=""></a>
+
+      
+      
+        <div class="col lg-3 md-6 " style="margin: auto; margin-bottom: 20px;">
+          <div class="image-w-stripe-container text-align-center" >
+            <div class="stripes"></div>
+            <img src="http://iiitg.ac.in/placements/images/gb.jpg"  alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -464,7 +559,9 @@
         <!-- <div class="col lg-1 no-margin-bottom"></div> -->
         <!-- <div class="col lg-6 md-12 order-first md-margin-bottom-quad">
         <div class="image-w-stripe-container text-align-center">
-          <div data-w-id="fd7c503d-e1d8-b8ed-60dc-4039e8a9b3e9" class="stripes hidden-md"></div><img src="images/card.JPG" srcset="images/card-p-500.jpeg 500w, images/card.JPG 719w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, 45vw" alt=""></div>
+          <div data-w-id="fd7c503d-e1d8-b8ed-60dc-4039e8a9b3e9" class="stripes hidden-md"></div>
+          <img src="images/card.JPG" srcset="images/card-p-500.jpeg 500w, images/card.JPG 719w" sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, 45vw" alt="">
+        </div>
       </div> -->
       </div>
       <div class="container">
@@ -874,313 +971,11 @@
     <!-- research end -->
 
 
-    <!-- <div class="section position-relative">
-      <div class="background-img img1 align-left push-to-lg-8 hidden-md"></div>
-      <div class="container">
-        <div class="col lg-8 md-12 no-margin-bottom"></div>
-        <div class="col lg-4 no-margin-bottom md-12">
-          <div class="pre-title-container">
-            <div class="pre-title is-left-aligned">Premium partners</div>
-            <div class="pre-title-decoration"></div>
-          </div>
-          <h2>World-class global brand organization</h2>
-        </div>
-      </div>
-      <div class="container">
-        <div class="col lg-7 md-12 no-margin-bottom">
-          <div class="w-layout-grid c-grid4x2">
-            <div class="fa-brand-2"></div>
-            <div class="fa-brand-2"></div>
-            <div class="fa-brand-2"></div>
-            <div class="fa-brand-2"></div>
-            <div class="fa-brand-2"></div>
-            <div class="fa-brand-2"></div>
-            <div class="fa-brand-2"></div>
-            <div class="fa-brand-2"></div>
-          </div>
-        </div>
-        <div class="col lg-1"></div>
-        <div class="col lg-4 flexv-space-between md-12">
-          <div>
-            <div class="margin-bottom-double">We&#x27;ve succesfully helped Fortune 500 companies and enterprise clients
-              untangle complex issues that always emerge during their digital evolution journey. Since 2017 we have been
-              a visionary and a reliable software engineering partner for world-class brands.</div>
-          </div><a href="#" class="cta-link"><span class="margin-right">Talk to our team</span><span
-              class="fa c-cta1_arrow-hovered"></span> <span class="fa c-cta1__arrow-normal"></span></a>
-        </div>
-      </div>
-    </div>
-    <div class="section bg-accent">
-      <div class="container">
-        <div class="col lg-4 block-centered text-align-center">
-          <div class="pre-title-container">
-            <div class="pre-title">case studies</div>
-            <div class="pre-title-decoration is-centered"></div>
-          </div>
-          <h2>Client Success</h2>
-        </div>
-      </div>
-      <div class="container flexh-justify-center position-relative">
-        <div class="col lg-8 md-12">
-          <div data-duration-in="300" data-duration-out="100" class="c-testimonial3 w-tabs">
-            <div class="c-testimonial3__tab-content w-tab-content">
-              <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
-                <div class="image-w-stripe-container margin-bottom-quad text-align-center">
-                  <div data-w-id="a4c121d0-ee62-113e-61ae-1451d10cd86a" class="stripes hidden-md"></div><img
-                    src="images/pic1.jpg" alt="">
-                </div>
-                <div class="quote style2 c-testimonial3__quote">Hooli was behind the highest-rated app for integrating
-                  Salesforce with a user’s email inbox. Cirrus Insight Mobile helps you leverage your sales data to gain
-                  valuable insights and uncover new...</div>
-              </div>
-              <div data-w-tab="Tab 2" class="w-tab-pane">
-                <div class="image-w-stripe-container margin-bottom-quad text-align-center">
-                  <div class="stripes hidden-md"></div><img src="images/pic3.jpg" alt="">
-                </div>
-                <div class="quote style2 c-testimonial3__quote">A high-speed railway pioneer gains a series of automated
-                  solutions to process passenger information, improve on-board services, and report critical information
-                  to passengers.</div>
-              </div>
-              <div data-w-tab="Tab 3" class="w-tab-pane">
-                <div class="image-w-stripe-container margin-bottom-quad text-align-center">
-                  <div class="stripes hidden-md"></div><img src="images/pic2.jpg" alt="">
-                </div>
-                <div class="quote style2 c-testimonial3__quote">The AngryCreative solution is a multilingual mobile
-                  application that lets the company’s representative leap over language barriers in a matter of seconds,
-                  ensuring clear and productive conversations.</div>
-              </div>
-            </div>
-            <div class="c-testimonial3__tab w-tab-menu">
-              <a data-w-tab="Tab 1" class="c-testimonial3__tab-link w-inline-block w-tab-link">
-                <div class="c-testimonial3__info">
-                  <div class="fa-brand-2 is-small margin-right color1"></div>
-                  <div class="c-testimonial1__text">
-                    <div class="is-bold">Eric Grenier</div>
-                    <div class="text-small low-text-contrast">Fanatic Hooligans</div>
-                  </div>
-                </div>
-              </a>
-              <a data-w-tab="Tab 2" class="c-testimonial3__tab-link w-inline-block w-tab-link">
-                <div class="c-testimonial3__info">
-                  <div class="fa-brand-2 is-small margin-right color2"></div>
-                  <div class="c-testimonial1__text">
-                    <div class="is-bold">Mark Askew</div>
-                    <div class="text-small low-text-contrast">Super Hipster</div>
-                  </div>
-                </div>
-              </a>
-              <a data-w-tab="Tab 3" class="c-testimonial3__tab-link w-inline-block w-tab-link w--current">
-                <div class="c-testimonial3__info">
-                  <div class="fa-brand-2 is-small margin-right color3"></div>
-                  <div class="c-testimonial1__text">
-                    <div class="is-bold">David Hochs</div>
-                    <div class="text-small low-text-contrast">Anger Manager</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section overflow-hidden">
-      <div class="container is-fullwidth flex-horizontal">
-        <div class="col lg-6 md-12">
-          <div class="container">
-            <div class="col lg-12">
-              <div class="pre-title-container">
-                <div class="pre-title is-left-aligned">Hi-tech Industry solutions</div>
-                <div class="pre-title-decoration"></div>
-              </div>
-              <h2>Tailor-made for different type of industries</h2>
-            </div>
-          </div>
-          <div class="container is-wrapped">
-            <div class="col lg-4 md-12"><img src="images/industry1.svg" width="64" alt="" class="margin-bottom">
-              <h4>Constructions</h4>
-              <div>Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-                dolor auctor.</div>
-            </div>
-            <div class="col lg-4 md-12"><img src="images/industry2.svg" width="64" alt="" class="margin-bottom">
-              <h4>Healthcare</h4>
-              <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.
-              </div>
-            </div>
-            <div class="col lg-4 md-12"><img src="images/industry3.svg" width="64" alt="" class="margin-bottom">
-              <h4>Retail &amp; Commerce</h4>
-              <div>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. </div>
-            </div>
-            <div class="col lg-4 md-12"><img src="images/industry4.svg" width="64" alt="" class="margin-bottom">
-              <h4>FinTech</h4>
-              <div>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
-                amet.</div>
-            </div>
-            <div class="col lg-4 md-12"><img src="images/industry5.svg" width="64" alt="" class="margin-bottom">
-              <h4>Travel and hospitality</h4>
-              <div>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
-            </div>
-            <div class="col lg-4 md-12"><img src="images/industry6.svg" width="64" alt="" class="margin-bottom">
-              <h4>Food &amp; Beverages</h4>
-              <div>Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at
-                lobortis.</div>
-            </div>
-          </div>
-        </div>
-        <div class="col lg-6 md-12 order-first position-relative">
-          <div class="image-w-stripe-container2">
-            <div class="image-as-bg"></div>
-            <div data-w-id="f9f2bb5b-6ce5-7adb-0a16-77d28b901ea1" class="stripes2"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section">
-      <div class="container">
-        <div class="col lg-12">
-          <div class="pre-title-container">
-            <div class="pre-title is-left-aligned position-relative">from our blog</div>
-            <div class="pre-title-decoration"></div>
-          </div>
-          <h2>Latest news &amp; insights</h2>
-        </div>
-      </div>
-      <div class="container">
-        <div class="col lg-12">
-          <div class="w-layout-grid c-grid2">
-            <a id="w-node-6c39528a0ead-f459a334" href="single-post.html" class="c-grid1__item img1 w-inline-block">
-              <div class="c-grid1__overlay">
-                <div class="c-grid__category">startup</div>
-                <div class="c-grid1__title">Fintech 4.0 — How Technology Is Reshaping The $5 Trillion Insurance Sector
-                </div>
-              </div>
-            </a>
-            <a id="w-node-6c39528a0eb1-f459a334" href="single-post.html" class="c-grid1__item img2 w-inline-block">
-              <div class="c-grid1__overlay">
-                <div class="c-grid__category">Fintech</div>
-                <div class="c-grid1__title">A Captive and Trivial Culture: Technology Ethics in a Tech-Consumed World
-                </div>
-              </div>
-            </a>
-            <a id="w-node-6c39528a0eb5-f459a334" href="single-post.html" class="c-grid1__item img3 w-inline-block">
-              <div class="c-grid1__overlay">
-                <div class="c-grid__category">UI / UX Design</div>
-                <div class="c-grid1__title">The loom and the thresher: Lessons in technological worker displacement
-                </div>
-              </div>
-            </a>
-            <a id="w-node-6c39528a0eb9-f459a334" href="single-post.html" class="c-grid1__item img4 w-inline-block">
-              <div class="c-grid1__overlay">
-                <div class="c-grid__category">team management</div>
-                <div class="c-grid1__title">Supercharged Ramen: The Future of Noodles Is Already Here</div>
-              </div>
-            </a>
-            <a id="w-node-6c39528a0ebd-f459a334" href="single-post.html" class="c-grid1__item img5 w-inline-block">
-              <div class="c-grid1__overlay">
-                <div class="c-grid__category">future industry</div>
-                <div class="c-grid1__title">Army of Women Earning $4 a Day Could Be Behind Your Next iPhone</div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section bg-accent position-relative overflow-hidden">
-      <div class="container position-relative">
-        <div class="col lg-5 alignself-center md-12">
-          <div class="pre-title-container">
-            <div class="pre-title is-left-aligned">Our facts in number</div>
-            <div class="pre-title-decoration"></div>
-          </div>
-          <p class="margin-bottom-double">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
-            enim in. <a href="#"> Read More</a></p>
-          <div class="container container-nested margin-bottom is-wrapped">
-            <div class="col lg-6 md-12">
-              <div class="heading-beta thin">17<span class="font-size-normal thin">years</span></div>
-              <div>We&#x27;ve been operating since 2001</div>
-            </div>
-            <div class="col lg-6 md-12">
-              <div class="heading-beta thin">918<span class="font-size-normal thin">clients</span></div>
-              <div>We&#x27;ve helped 990+ clients achieve their goals</div>
-            </div>
-            <div class="col lg-6 md-12">
-              <div class="heading-beta thin">8<span class="font-size-normal thin">offices</span></div>
-              <div>Our locations are spreaded accross 8 continents</div>
-            </div>
-            <div class="col lg-6 md-12">
-              <div class="heading-beta thin">28<span class="font-size-normal thin">awards</span></div>
-              <div>We&#x27;ve awarded as the best business consulting in 2020</div>
-            </div>
-          </div>
-          <div class="pre-title-container">
-            <div class="pre-title is-left-aligned">awards and recognitions</div>
-            <div class="pre-title-decoration"></div>
-          </div>
-          <div data-delay="3000" data-animation="slide" data-autoplay="1" data-easing="ease-out-cubic"
-            data-duration="1200" data-infinite="1" class="c-carousel2 margin-top block-centered w-slider">
-            <div class="c-carousel2_wrapper w-slider-mask">
-              <div class="c-carousel2_slide w-slide"><img src="images/awards9.svg" alt="" class="c-carousel2__logo">
-              </div>
-              <div class="c-carousel2_slide w-slide"><img src="images/award5.svg" alt="" class="c-carousel2__logo">
-              </div>
-              <div class="c-carousel2_slide w-slide"><img src="images/award3.svg" alt="" class="c-carousel2__logo">
-              </div>
-              <div class="c-carousel2_slide w-slide"><img src="images/award2.svg" width="120" alt=""
-                  class="c-carousel2__logo"></div>
-              <div class="c-carousel2_slide w-slide"><img src="images/awards4.svg" alt="" class="c-carousel2__logo">
-              </div>
-              <div class="c-carousel2_slide w-slide"><img src="images/award8.svg" alt="" class="c-carousel2__logo">
-              </div>
-              <div class="c-carousel2_slide w-slide"><img src="images/award6.svg" alt="" class="c-carousel2__logo">
-              </div>
-              <div class="c-carousel2_slide w-slide"><img src="images/award1.svg" alt="" class="c-carousel2__logo">
-              </div>
-              <div class="c-carousel2_slide w-slide"><img src="images/award7.svg" alt="" class="c-carousel2__logo">
-              </div>
-            </div>
-            <div class="display-hidden w-slider-arrow-left">
-              <div class="c-carousel1__left-arrow w-icon-slider-left"></div>
-            </div>
-            <div class="display-hidden w-slider-arrow-right">
-              <div class="c-carousel1__right-arrow w-icon-slider-right"></div>
-            </div>
-            <div class="c-carousel2__nav w-slider-nav w-slider-nav-invert w-round"></div>
-          </div>
-        </div>
-        <div class="col lg-1"></div>
-        <div class="col lg-6 md-12">
-          <div class="c-contact__home w-form">
-            <div class="size-h2">Tell us about your project</div>
-            <div class="margin-bottom">We will respond to your email within 24 hours</div>
-            <form id="email-form-2" name="email-form-2" data-name="Email Form 2"><select id="field" name="field"
-                class="form-select w-select">
-                <option value="interest">I&#x27;m interested in...</option>
-                <option value="IT consulting">IT consulting</option>
-                <option value="Web development">Web development</option>
-                <option value="Mobile app development">Mobile app development</option>
-                <option value="Enterprise software development">Enterprise software development</option>
-              </select><input type="text" class="form-input-text w-input" maxlength="256" name="name" data-name="Name"
-                placeholder="Name" id="name"><input type="email" class="form-input-text w-input" maxlength="256"
-                name="Email" data-name="Email" placeholder="Email" id="Email-4" required=""><input type="text"
-                class="form-input-text w-input" maxlength="256" name="Company" data-name="Company" placeholder="Company"
-                id="Company" required=""><textarea placeholder="Project Description" maxlength="5000"
-                id="Project-description" name="Project-description" data-name="Project description"
-                class="form-textarea margin-bottom-double w-input"></textarea><input type="submit"
-                value="Talk to our team" data-wait="Please wait..." class="button-primary w-button"></form>
-            <div class="w-form-done">
-              <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-              <div>Oops! Something went wrong while submitting the form.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div data-w-id="b2e88807-b924-c74f-60e6-578fbc687202" class="bg-image hidden-md"></div>
-    </div>
+
     <div class="section section-footer-dark padding-bottom-16">
       <div class="container margin-bottom">
         <div class="col lg-2 md-12 md-order-first">
-          <h3 class="logotype on-dark">e—<br>tan</h3>
+          <img src="/images/iiitg.png" alt="">
         </div>
         <div class="col lg-6 md-12 no-margin-bottom">
           <div class="container container-nested">
@@ -1211,26 +1006,8 @@
             </div>
           </div>
         </div>
-        <div class="col lg-4 md-12 no-margin-bottom">
-          <h4 class="margin-bottom">Subscribe</h4>
-          <div class="margin-bottom w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" class="flexh-align-center"><input
-                type="email"
-                class="form-input-text is-grey margin-right-small no-margin-bottom md-margin-bottom w-input"
-                maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email address" id="email-2"
-                required=""><input type="submit" value="Subscribe" data-wait="Please wait..."
-                class="button-primary button-primary-small w-button"></form>
-            <div class="w-form-done">
-              <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-              <div>Oops! Something went wrong while submitting the form.</div>
-            </div>
-          </div>
-          <div class="margin-bottom low-text-contrast text-small">Join our newsletter to stay up to date on features and
-            releases</div>
-        </div>
-      </div> -->
+       
+      </div>
     <div class="container">
       <div class="col lg-12 margin-bottom">
         <div class="hr"></div>
@@ -1239,12 +1016,11 @@
     <div class="container">
       <div class="col lg-6 no-margin-bottom md-12 md-order-last">
         <div class="low-text-contrast text-small flexh-space-between md-flex-vertical">
-          <div class="md-order-last">©2021 IIITG. All rights reserved. </div><a href="#"
-            class="footer-bottom-link">Privacy Policy</a><a href="#" class="footer-bottom-link">Term Of Service</a>
+          <div class="md-order-last">2021 Placement Cell, IIIT Guwahati.  </div>
         </div>
       </div>
       <div class="col lg-6 no-margin-bottom md-12">
-        <div class="w100 text-align-right footer-bottom md-text-align-left margin-bottom">Made in Surabaja, Indonesia
+        <div class="w100 text-align-right footer-bottom md-text-align-left margin-bottom">Designed by <a href="">Web Development Team</a>
         </div>
       </div>
     </div>
@@ -1261,6 +1037,7 @@
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/webflow.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript"></script>
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   </body>
 
