@@ -2,11 +2,11 @@
 <html data-wf-page="5d6deaed141661e30be8bc9e" data-wf-site="5d68c92e8dfed9e8e859a331">
 <head>
   <meta charset="utf-8">
-  <title>About</title>
+  <title>Placement Status</title>
   <meta content="About" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
-
+  <link rel="stylesheet" href="css/main.css" type="text/css">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/etan.webflow.css" rel="stylesheet" type="text/css">
@@ -16,40 +16,120 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Inconsolata:400,700","Merriweather:300,300italic,400,400italic,700,700italic,900,900italic","Gothic A1:100,200,300,regular,500,600,700,800,900"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="icons/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="icons/webclip.png" rel="apple-touch-icon">
+  <link href="images/iiitg.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/iiitg.png" rel="apple-touch-icon">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js" integrity="sha512-asxKqQghC1oBShyhiBwA+YgotaSYKxGP1rcSYTDrB0U6DxwlJjU59B67U8+5/++uFjcuVM8Hh5cokLjZlhm3Vg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-  <div class="section-header position-absolute">
+   <!-- nav -->
+   <div class="section-header position-absolute position-fixed">
     <div class="container space-between align-middle">
       <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
         <div class="navbar-container align-middle w-container">
           <div class="col lg-4 order-first no-padding-left no-margin-bottom flex-horizontal lg-2 md-4 xs-8">
-            <div class="menu-and-logo-container order-first"><a data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf10" href="#" class="offcanvas-button margin-right w-inline-block"><img src="images/burger-menu-icon-white.svg" alt=""></a>
+
+            <div class="menu-and-logo-container order-first">
               <a href="#" class="brand w-nav-brand">
-                <h3 class="logotype on-dark">e—<br>tan</h3>
+                <span class="nav-logo"><img src="images/iiitg.png" alt=""></span>
               </a>
             </div>
           </div>
           <div class="col lg-4 no-margin-bottom flexh-justify-center position-absolute-md lg-8">
-            <nav role="navigation" class="nav-menu w-nav-menu"><a href="about.html" class="nav-link on-dark w-nav-link w--current">About</a>
+            <nav role="navigation" class="nav-menu w-nav-menu">
+              <!-- 1 -->
               <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
-                <div class="nav-link on-dark w-dropdown-toggle">
+                <div class="nav-link w-dropdown-toggle">
                   <div class="w-icon-dropdown-toggle"></div>
-                  <div>Our work</div>
+                  <a href="index.html" class="nav-link-drop">Why Recruit?</a>
+                  
                 </div>
-                <nav class="dropdown-list w-dropdown-list"><a href="our-work.html" class="dropdown-link w-dropdown-link">Fullwidth gallery</a><a href="our-work-2.html" class="dropdown-link w-dropdown-link">Standard gallery</a></nav>
-              </div><a href="services.html" class="nav-link on-dark w-nav-link">Services</a><a href="news.html" class="nav-link on-dark w-nav-link">News</a><a href="contact-us.html" class="nav-link on-dark w-nav-link">Contact </a></nav>
+                <nav class="dropdown-list w-dropdown-list">
+                  <a href="index.html" class="dropdown-link w-dropdown-link">Home</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">About IIITG</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Academics</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Research</a>
+
+                </nav>
+              </div>
+              <!-- 2 -->
+              <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                <div class="nav-link w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <a href="stats.html" class="nav-link-drop">Placement Status</a>
+                </div>
+                <nav class="dropdown-list w-dropdown-list">
+                  <a href="stats.html" class="dropdown-link w-dropdown-link">Past Recruiters</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Past Stats</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Past Figures</a>
+                </nav>
+              </div>
+              <!-- 3 -->
+              <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                <div class="nav-link w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <a href="company.html" class="nav-link-drop">Company</a>
+                </div>
+                <nav class="dropdown-list w-dropdown-list">
+                  <a href="company.html" class="dropdown-link w-dropdown-link">Placement Procedure</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Past Recruiters</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Brochure</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Company Registration</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Facilities</a>
+                </nav>
+              </div>
+              <!-- 4 -->
+              <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                <div class="nav-link w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <a href="student-life.html" class="nav-link-drop">Life at IIITG</a>
+                </div>
+                <nav class="dropdown-list w-dropdown-list">
+                  <a href="student-life.html" class="dropdown-link w-dropdown-link">Clubs</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Festival</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Sports</a>
+                </nav>
+              </div>
+              <!-- 5 --> 
+              <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                <div class="nav-link w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <a href="faq.html" class="nav-link-drop">FAQ</a>
+                </div>
+                <nav class="dropdown-list w-dropdown-list">
+                  <a href="faq.html" class="dropdown-link w-dropdown-link">FAQs</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Accomodation</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Transportation</a>
+                </nav>
+              </div>
+              <!-- 6 -->
+              <div data-hover="1" data-delay="0" data-w-id="7d050a59-b525-e710-dbfb-70b18fafaf1a" class="nav-dropdown w-dropdown">
+                <div class="nav-link w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <a href="contact-us.html" class="nav-link-drop">Contact Us</a>
+                </div>
+                <nav class="dropdown-list w-dropdown-list">
+                  <a href="contact-us.html" class="dropdown-link w-dropdown-link">Faculty Incharge</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Student Co-ordinators</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Placement Office</a>
+                  <a href="#" class="dropdown-link w-dropdown-link">Reaching IIITG</a>
+                </nav>
+              </div>
+            </nav>
           </div>
-          <div class="menu-button w-nav-button"><img src="images/burger-menu-icon-white.svg" alt="" class="burger-menu-icon"></div>
+          <div class="menu-button w-nav-button"><img src="images/burger-menu-icon-white.svg" alt=""
+              class="burger-menu-icon"></div>
           <div class="col lg-4 no-margin-bottom flexh-justify-end no-padding-right grow hidden-xs lg-2">
-            <div class="extra-menu"><a href="hiring.html" class="extra-menu-link margin-left nav-link on-dark">We&#x27;re hiring</a></div>
+            <div class="extra-menu">
+              <a href="#" class="extra-menu-link margin-left nav-link nav-tab">Brochure</a>
+              <a href="#" class="extra-menu-link margin-left nav-link  nav-tab">Registration</a>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- nav end -->
   <div class="section is-header bg-accent-dark has-bg-img position-relative">
     <div class="gradient-overlay hidden-only-lg"></div>
     <div class="container flex-horizontal position-relative">
@@ -57,7 +137,7 @@
         <div class="breadcrumb margin-bottom-double"><a href="#">Home</a><span class="fa margin-left-small margin-right-small is-xsmall"></span>About</div>
         <div class="header-content-wrapper-2">
           <h1>Past Placements</h1>
-          <div class="text-medium">Blah Blah Blah Blah</div>
+          
         </div>
       </div>
       <div class="col lg-1"></div>
