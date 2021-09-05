@@ -9,13 +9,13 @@
 .coordinator-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10%;
     justify-content: center;
     margin: 40px 0px;
 }
 
 .coordinator-card {
-    text-align: center;
+    text-align: left;
 }
 
 .coordinator-image {
@@ -26,12 +26,24 @@
 
 .coordinator-info {
     margin-top: 20px;
+    color: rgb(61, 61, 61);
+    
+}
+
+.coordinator-info h4{
+    margin: 0px;
+    color: rgb(100, 100, 100);
+    font-weight: 500;
+}
+
+.coordinator-info h3{
+    margin: 0px;
 }
 
 .address-container {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
+    margin-top: 120px;
     margin-bottom: 40px;
     position: relative;
     text-align: center;
@@ -40,6 +52,11 @@
 .map {
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
-    height: 500px;
+    width: 80wh;
+    height: 50vh;
+}
+
+
+.block{
+    display: block;
 }

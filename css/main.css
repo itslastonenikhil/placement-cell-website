@@ -171,3 +171,24 @@
 .nav-link-drop:hover{
   color: #1f3368;
 }
+
+.course-title{
+  text-align: center; 
+  margin-bottom: 40px; 
+  color:white;
+  width:max-content;
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: #3f61bed0;
+}
+
+.gradient-right{
+  background-image:linear-gradient(to right, rgb(202, 212, 243), rgb(244, 245, 245));
+  padding: 10px;
+}
+
+.gradient-left{
+  background-image:linear-gradient(to left, rgb(244, 245, 245),rgb(185, 198, 236));
+  padding: 10px;
+}
+
