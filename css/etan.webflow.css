@@ -4418,7 +4418,7 @@ figcaption {
     flex-direction: column;
   }
   .nav-menu {
-    background-color: #009d9e;
+    background-color: whitesmoke;
     text-align: left;
   }
   .flexh-align-center {
@@ -4477,7 +4477,7 @@ figcaption {
     max-width: 200px;
   }
   .menu-button.w--open {
-    background-color: #009d9e;
+    background-color:white;
   }
   .hidden-md {
     display: none;
