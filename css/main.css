@@ -176,7 +176,7 @@
   text-align: center; 
   margin-bottom: 40px; 
   color:white;
-  width:max-content;
+  width:fit-content;
   padding: 3px 15px;
   border-radius: 5px;
   background-color: #3f61bed0;
