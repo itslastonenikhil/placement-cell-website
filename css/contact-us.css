@@ -38,6 +38,7 @@
 
 .coordinator-info h3{
     margin: 0px;
+    font-weight: 700;
 }
 
 .address-container {
@@ -59,4 +60,19 @@
 
 .block{
     display: block;
+}
+
+.contact-title{
+    margin-bottom: 30px;
+    color: #1f3368;
+}
+
+.coordinator h3{
+    margin: 0px;
+    color: rgb(61, 61, 61);
+    font-weight: 700;
+}
+
+.coordinator a{
+    color:rgb(90, 101, 151);
 }
