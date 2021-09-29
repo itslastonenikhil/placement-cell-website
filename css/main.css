@@ -1,5 +1,5 @@
 .accordion {
-    background-color: #eee;
+    background-color: rgb(212, 212, 212);
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -36,6 +36,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    margin-bottom: 5px;
   }
 
   .nav-logo{
