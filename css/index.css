@@ -3585,6 +3585,14 @@ figcaption {
   border-radius: 5px;
 }
 
+.tag-light{
+  background-color: whitesmoke;
+  padding: 4px 6px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+}
+
 .tag-v1{
   /* background-color: rgb(206, 206, 206); */
   padding: 6px 9px;
