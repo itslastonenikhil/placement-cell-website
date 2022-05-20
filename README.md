@@ -1,4 +1,8 @@
 # Placement Cell Website IIITG
+
+[Click here to visit website.](https://itslastonenikhil.github.io/placement-cell-website/)
+---
+
 ![Front Page](https://github.com/itslastonenikhil/placement-cell-website/blob/main/sample/Screenshot%20from%202021-09-20%2000-18-57.png)
 
 Old                        |  New
